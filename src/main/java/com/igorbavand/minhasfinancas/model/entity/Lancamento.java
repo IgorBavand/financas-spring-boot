@@ -18,6 +18,9 @@ import java.util.Objects;
 
 import org.springframework.data.convert.Jsr310Converters;
 
+import com.igorbavand.minhasfinancas.model.enums.StatusLancamento;
+import com.igorbavand.minhasfinancas.model.enums.TipoLancamento;
+
 @Entity
 @Table(name = "lancamento", schema = "financas")
 public class Lancamento{
